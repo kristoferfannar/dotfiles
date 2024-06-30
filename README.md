@@ -16,7 +16,9 @@ Some notable are:
 
 Once that's done, you're ready to symlink these dotfiles from this directory to the `$HOME` directory using:
 
-`stow .`
+```
+stow .
+```
 
 You might have conflicts as you're creating symlinks for files that already exist in `$HOME`.
 Just rename those or delete them.
