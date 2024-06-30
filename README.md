@@ -16,7 +16,7 @@ Some notable are:
 
 Once that's done, you're ready to symlink these dotfiles from this directory to the `$HOME` directory using:
 
-```
+```bash
 stow .
 ```
 
