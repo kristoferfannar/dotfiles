@@ -9,14 +9,24 @@ The inspiration for this comes from [Youtube | Stow has forever changed the way 
 
 If you're setting these dotfiles up on a new device, you might have some trouble configuring everything in the beginning as my config depends upon countless dependencies.
 
-Some notable are:
+Of course, you'll first need a package manager. I use [`brew`](https://brew.sh/).
 
-- tmux
-- neovim
+Some notable dependencies are:
 
-Once that's done, you're ready to symlink these dotfiles from this directory to the `$HOME` directory using:
+- `stow`
+- `tmux`
+- `neovim`
+
+### Installation
+
+With a package manager and the necessary dependencies installed,
+you're ready to symlink these dotfiles from this directory to the `$HOME` directory:
 
 ```bash
+# from $HOME
+git clone git@github.com:kristoferfannar/dotfiles.git
+cd dotfiles
+
 stow .
 ```
 
