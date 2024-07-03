@@ -12,3 +12,6 @@ startup_command = "nvim .tmux.conf"
 name = "dotfiles"
 path = "~/dotfiles/"
 
+[[session]]
+name = "home 🏠"
+path "~"
