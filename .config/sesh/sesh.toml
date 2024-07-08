@@ -14,4 +14,4 @@ path = "~/dotfiles/"
 
 [[session]]
 name = "home 🏠"
-path "~"
+path = "~"
